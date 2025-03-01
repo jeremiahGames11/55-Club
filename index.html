@@ -1,16 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>55 Club Game | Secure Login & Download Now</title>
-    <meta name="description" content="55 Club Game offers a secure login and fast download. Enjoy exciting gameplay now! Stay safe—avoid hacks and start playing today.">
-    <meta name="robots" content="index, follow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to 55 Club</h1>
-    <p>Download My App – the best app for XYZ. Available for Android & iOS.</p>
-    <a href="https://play.google.com/store/apps/details?id=com.myapp">Download on Google Play</a>
+  <div class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="container">
+      <div class="nav-content">
+        <div class="logo">
+          <i class='bx bx-mobile-alt'></i>
+          <span>AppName</span>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="#features">Features</a>
+          <a href="#screenshots">Screenshots</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#download">Download</a>
+        </div>
+        <button class="download-btn">Download Now</button>
+        <div class="menu-toggle" id="menuToggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Your Amazing App</h1>
+          <p>A simple description of your app and what makes it special. Highlight the main benefits and features.</p>
+          <div class="hero-buttons">
+            <button class="primary-btn">
+              <i class='bx bx-download'></i>
+              Download App
+            </button>
+            <button class="secondary-btn">Learn More</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- App Screenshot Placeholder -->
+          <div class="app-screenshot">
+            <div class="placeholder-text">
+              <p>App Screenshot</p>
+              <p class="small-text">Replace with your app screenshot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class='bx bx-star'></i>
+            </div>
+            <h3>Feature One</h3>
+            <p>Description of this amazing feature and how it benefits the user.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class='bx bx-message-square-detail'></i>
+            </div>
+            <h3>Feature Two</h3>
+            <p>Description of this amazing feature and how it benefits the user.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class='bx bx-check-circle'></i>
+            </div>
+            <h3>Feature Three</h3>
+            <p>Description of this amazing feature and how it benefits the user.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+      <div class="container">
+        <h2>App Screenshots</h2>
+        <div class="screenshots-slider">
+          <div class="screenshot">
+            <div class="screenshot-placeholder">
+              <p>Screenshot 1</p>
+              <p class="small-text">Replace with your app screenshot</p>
+            </div>
+          </div>
+          <div class="screenshot">
+            <div class="screenshot-placeholder">
+              <p>Screenshot 2</p>
+              <p class="small-text">Replace with your app screenshot</p>
+            </div>
+          </div>
+          <div class="screenshot">
+            <div class="screenshot-placeholder">
+              <p>Screenshot 3</p>
+              <p class="small-text">Replace with your app screenshot</p>
+            </div>
+          </div>
+          <div class="screenshot">
+            <div class="screenshot-placeholder">
+              <p>Screenshot 4</p>
+              <p class="small-text">Replace with your app screenshot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2>What Users Say</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="user-info">
+              <div class="avatar-placeholder">
+                <span>Avatar</span>
+              </div>
+              <div>
+                <h4>User Name</h4>
+                <p>Role</p>
+              </div>
+            </div>
+            <p class="testimonial-text">This app has completely transformed how I work. The interface is intuitive and the features are exactly what I needed.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="user-info">
+              <div class="avatar-placeholder">
+                <span>Avatar</span>
+              </div>
+              <div>
+                <h4>User Name</h4>
+                <p>Role</p>
+              </div>
+            </div>
+            <p class="testimonial-text">I've tried many similar apps but this one stands out. The customer support is excellent and the app is regularly updated.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="user-info">
+              <div class="avatar-placeholder">
+                <span>Avatar</span>
+              </div>
+              <div>
+                <h4>User Name</h4>
+                <p>Role</p>
+              </div>
+            </div>
+            <p class="testimonial-text">Simple, effective, and beautiful. This app does exactly what it promises and more. Highly recommended!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+      <div class="container">
+        <h2>Download the App Today</h2>
+        <p>Available on iOS and Android. Download now and experience the difference.</p>
+        <div class="store-buttons">
+          <!-- App Store Button -->
+          <div class="store-button">
+            <div class="store-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.5227 12.0488C17.5013 9.1167 19.9384 7.79293 20.0341 7.73608C18.6649 5.70293 16.5013 5.41211 15.7422 5.39461C13.9397 5.20043 12.1934 6.47043 11.2793 6.47043C10.3477 6.47043 8.91699 5.41211 7.39551 5.44711C5.43457 5.48211 3.61621 6.56836 2.61621 8.25879C0.557617 11.7021 2.06152 16.7988 4.02246 19.6896C5.00488 21.1113 6.14941 22.7021 7.64941 22.6436C9.11621 22.5791 9.67676 21.7021 11.4443 21.7021C13.1943 21.7021 13.7197 22.6436 15.2607 22.6084C16.8545 22.5791 17.8428 21.1699 18.7861 19.7363C19.9248 18.0986 20.3838 16.4961 20.4053 16.4141C20.3662 16.4023 17.5471 15.2988 17.5227 12.0488Z" fill="white"/>
+                <path d="M14.8057 3.67383C15.6104 2.67383 16.1533 1.31055 16.0225 0C14.8584 0.0527344 13.4541 0.791016 12.6143 1.76758C11.8701 2.63867 11.2158 4.05273 11.3701 5.31055C12.6807 5.40039 13.9658 4.65039 14.8057 3.67383Z" fill="white"/>
+              </svg>
+            </div>
+            <div class="store-text">
+              <div class="small-text">Download on the</div>
+              <div class="large-text">App Store</div>
+            </div>
+          </div>
+          
+          <!-- Google Play Button -->
+          <div class="store-button">
+            <div class="store-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.1 21.5C3.8 21.5 3.5 21.4 3.3 21.2C3 21 2.9 20.7 2.9 20.3V3.7C2.9 3.3 3 3 3.3 2.8C3.5 2.6 3.8 2.5 4.1 2.5L15.6 12L4.1 21.5Z" fill="#EA4335"/>
+                <path d="M4.1 21.5L15.6 12L19.4 15.5L6.4 22.4C6 22.6 5.5 22.7 5.1 22.5C4.7 22.3 4.3 22 4.1 21.5Z" fill="#FBBC04"/>
+                <path d="M19.4 8.5L15.6 12L4.1 2.5C4.3 2 4.7 1.7 5.1 1.5C5.5 1.3 6 1.4 6.4 1.6L19.4 8.5Z" fill="#4285F4"/>
+                <path d="M19.4 15.5L15.6 12L19.4 8.5L21.9 10C22.3 10.2 22.5 10.6 22.5 11C22.5 11.4 22.3 11.8 21.9 12L19.4 15.5Z" fill="#34A853"/>
+              </svg>
+            </div>
+            <div class="store-text">
+              <div class="small-text">GET IT ON</div>
+              <div class="large-text">Google Play</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <div class="footer-logo">
+              <i class='bx bx-mobile-alt'></i>
+              <span>AppName</span>
+            </div>
+            <p>A brief description of your app and company. What you do and your mission.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Resources</h3>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Documentation</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Security</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 AppName. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
